@@ -1,0 +1,6 @@
+test:
+  topic: "#"
+  command: "sleep"
+  multiple_instance: false
+  args:
+    - "10"

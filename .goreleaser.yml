@@ -1,0 +1,15 @@
+# .goreleaser.yml
+# Build customization
+builds:
+  - main: ./
+    binary: mqtt-exec
+    goos:
+      - windows
+      - darwin
+      - linux
+    goarch:
+      - amd64
+      - arm
+      - arm64
+    goarm:
+      - 5
